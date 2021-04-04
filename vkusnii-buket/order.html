@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title>Вкусный букет</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="style1.css?<?php echo time();?>">
+	<link media="all" rel="stylesheet" href="media.css">
+	<link rel="icon" type="image/png" href="images/favicon/favicon.png">
+</head>
+<body>
+<section class="main">
+	<header id="start">
+		<a class="head-a" href="index.html">
+			<img class="head-img-0" src="images/logo-buket-01.png">
+			<span class="head-span-name a1">Вкусный Букет</span>
+			<span class="head-span-name a2">фруктовые, мясные, кондитерские букеты ждут вас!</span>
+		</a>
+		<!-- <img class="head-img-2" src="images/vektor-circle-1Z4.png">
+		<img class="head-img-4" src="images/vektor-circle-1Z4.png"> -->
+		<nav class="nav">
+			<a href="index.html">Главная</a><!--
+			--><a href="catalog.html">Каталог</a><!--
+			--><a href="order.html">Заказать</a><!--
+			--><a href="#contacts">Контакты</a>
+		</nav>
+	</header>
+<!-- -->
+	<section>
+		<div class="order-content">
+			<div class="choice-card">
+				<div class="choice-card-top">
+					<figure class="choice-card-figure">
+						<a href="images/catalog/woman/woman-2.jpg" class="choice-card-a">
+							<img class="choice-card-img" src="images/catalog/woman/woman-2.jpg" alt="Букет c орешками">
+						</a>
+						<!-- figcaption></figcaption -->
+					</figure>
+				</div>
+				<div><a class="buy" href="#">Купить</a><a class="basket" href="#">В корзину</a></div>					
+			</div>
+		</div>
+			<div class="line"></div>
+		<form class="form-input">
+			<div class="input-lvl-1">
+				<input id="order-input-login" name="login" maxlength="50" pattern="^[A-Za-zА-Яа-яЁё]+$" placeholder="Имя" required><br>
+				<input id="order-input-tel" type="tel" name="tel" maxlength="50" pattern="{0-9}" placeholder="Телефон" required><br>
+				<input id="order-input-date" type="date" name="date"><br>
+				<input id="order-input-time" type="time" name="time"><br>
+			</div>				
+			<div class="input-lvl-2">
+				<label for="order-input-comments">Комментарии к заказу&#58;<br></label><textarea id="order-input-comments" name="comments" maxlength="280" placeholder="Не забывайте указать желаемое время доставки"></textarea><br>
+			</div>
+			<input type="submit">
+		</form>
+
+		<!-- form class="input">
+			<div class="input-lvl-1">
+				<label for="order-input-login">Имя&#58;</label><input id="order-input-login" name="login" autofocus maxlength="50" pattern="^[A-Za-zА-Яа-яЁё]+$" required><br>
+				<label for="order-input-tel">Тел.&#58;</label><input id="order-input-tel" type="tel" name="tel" maxlength="50" pattern="{0-9}" required><br>
+				<label for="order-input-date">Дата&#58;</label><input id="order-input-date" type="date" name="date"><br>
+			</div>				
+			<div class="input-lvl-2">
+				<label for="order-input-comments">Комментарии к заказу&#58;<br></label><textarea id="order-input-comments" name="comments" maxlength="280" placeholder="Не забывайте указать желаемое время доставки"></textarea><br>
+			</div>
+			<input type="submit">
+		</form -->
+	<!-- -->
+	</section>
+		<div class="empty"></div>
+</section>
+	<footer>
+		<div class="footer-line">
+			<h2 id="contacts">Контакты:</h2>
+		</div>
+		<address>
+			<div class="address-soctial">
+				<p>Мы в соц.сетях:</p>
+				<!-- Отдельными иконками a href="#"><img src="images/contacts/vk-318x319.png" alt="vkontakte"></a>
+				<a href="#"><img src="images/contacts/inst-320x320.png" alt="instagram"></a>
+				<a href="#"><img src="images/contacts/fb-315x315.png" alt="facebook"></a><br -->
+				<!-- Через спрайты -->
+				<a href="#"><div class="contact-sprite vk"></div></a>
+				<a href="#"><div class="contact-sprite inst"></div></a>
+				<a href="#"><div class="contact-sprite fb"></div></a><br>
+			</div>
+			<div class="address-data">
+				г. Москва, ул. Букетная, стр. Цветочное<br>
+				тел.: 8-555-ЗВО-НИ-ТЕ<br>
+				e-mail: vkusno&#64;pochta&#46;ru
+			</div>
+		</address>
+		<!-- div class="line"></div -->
+		<span class="copyright">&#169; razborskii</span>
+		<a href="#start"><img class="arrow-up" src="images/arrow-up.png" alt="Вверх"></a>
+	</footer>
+</body>
+</html>
