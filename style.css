@@ -1,6 +1,32 @@
-body {
-	background: #ece2da;
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
 }
-.header, .title, .list {
-	text-align: center;
+
+
+/* .lights { */
+  /* height: 3px; */
+  /* background: transparent repeating-linear-gradient(90deg, #000, #000 10px, yellow 10px, yellow 13px); */
+  /* box-shadow: 0 -2px 5px 3px yellow, */
+              /* 0 2px 5px 3px yellow; */
+	
+/* } */
+
+
+.cinemaLine {
+	border-top: 3px solid black;
+	border-bottom: 3px solid black;
+}
+.lights2 {
+  height: 7px;
+  background: transparent repeating-linear-gradient(90deg, #000, #000 4px, white 4px, white 8px);
+
+}
+
+.lights3 {
+  height: 24px;
+	border-top: 3px solid black;
+	border-bottom: 3px solid black;
+  background: transparent repeating-linear-gradient(90deg, #000, #000 4px, white 4px, white 36px);
+	
 }

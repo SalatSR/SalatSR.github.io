@@ -1,0 +1,105 @@
+/* logo */
+.logo__deck {
+  /* border: 1px solid red; */
+  border: 2px solid blanchedalmond;
+  border-bottom: 0;
+  /* background-color: rgb(199, 175, 42); */
+  background: linear-gradient(to right, rgb(199, 175, 42) 90%, rgb(255, 255, 255));
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  height: 8px;
+  margin: 0 auto;
+}
+
+.logo__main {
+  /* border: 1px solid red; */
+  /* border: 3px solid rgb(251, 217, 165);
+  background-color: blanchedalmond; */
+  position: relative;
+  border: 3px solid blanchedalmond;
+  background-color: #fff;
+  border-radius: 5px;
+  margin: 0 auto;
+  width: 482px;
+  padding: 0 0 5px;
+  height: 100px;
+}
+
+/*
+.logo__main:before {
+	content: '';
+	display: block;
+  position: absolute;
+  top: 45px;
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
+  box-shadow: 0 1px 1px 1px gray,
+              inset 0 1px 1px 1px gray;
+	margin: 0;
+	height: 8pt;
+	width: 100%;
+	z-index: 0;
+}
+*/
+
+.logo__deck_s {
+  width: 320px;
+
+}
+.logo__deck_m {
+  width: 360px;
+}
+.logo__deck_l {
+  width: 400px;
+  
+}
+.logo__deck_ll {
+  border: 2px solid blanchedalmond;
+  border-top: 0;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  width: 400px;
+}
+.logo__title {
+  font-family: broadway;
+  font-size: 23pt;
+  text-shadow: 0 1px 1px gray,
+              1px 0 1px gray;
+  color: red;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0;
+  width: 90%;
+}
+
+.logo__subtitle {
+  position: relative;
+  font-family: 'Gill Sans MT Condensed', Agency FB ;
+  text-shadow: 0 1px 1px gray,
+              1px 0 1px gray;
+  font-size: 21pt;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0;
+  width: 90%;
+  letter-spacing: 5px;
+  z-index: 0;
+}
+
+.logo__subtitle:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 9px;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  box-shadow: 0 1px 1px 1px gray,
+              inset 0 1px 1px 1px gray;
+  margin: 0;
+  height: 8pt;
+  width: 100%;
+  z-index: -1;
+}
+/* logo END */

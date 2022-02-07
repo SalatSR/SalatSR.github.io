@@ -1,0 +1,7 @@
+@font-face {
+	font-family: lemondrop;
+	font-style: normal;
+	font-weight: 400;
+	src: local(lemondrop),
+		url(Lemondrop-2jrw.ttf) format("truetype");
+}
