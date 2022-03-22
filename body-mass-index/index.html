@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Counter</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body class="page">
+<div class="container">
+  <div class="counter">
+		<div id="counter__reference-id" class="counter__reference">*</div>
+		<span id="counter__reference-text-id" class="counter__reference-text">Расчет выполнен по формуле Кетле</span>
+		<h1 class="counter__title">Расчет ИМТ</h1>
+		<form id="counter__form_id" class="counter__form">
+			
+			<article class="counter__article">
+				<label class="counter__label counter__label_data_height" for="input_data_height">Рост, см:</label>
+				<input id="input_height" class="counter__input counter__input_data_height"
+					type="number"
+					name="height"
+					placeholder="например: 182">
+			</article>
+			<span id="counter__message_height-id" class="counter__message counter__message_height">Введите значение от 145 до 300</span>
+		
+			<article class="counter__article">
+				<label class="counter__label counter__label_data_weight" for="input_data_weight">Вес, кг:</label>
+				<input id="input_weight" class="counter__input counter__input_data_weight"
+					type="number"
+					name="weight"
+					placeholder="например: 70">
+			</article>
+			<span id="counter__message_weight-id" class="counter__message counter__message_weight">Введите значение от 45 до 300</span>
+		
+			<article class="counter__article">
+				<label class="counter__label counter__label_data_age" for="input_data_age">Возраст, лет:</label>
+				<input id="input_age" class="counter__input counter__input_data_age"
+					type="date"
+					name="age"
+					placeholder="например: 30">
+			</article>
+			
+			<div class="counter__botton-container">
+				<input id="counter__submit" class="counter__button" type="button" value="Расчитать">
+				<input id="counter__clear" class="counter__button" type="button" value="Очистить">
+			</div>
+		</form>
+		
+		<p id="counter__message_id" class="counter__subtitle counter__subtitle_message"></p>
+		<p id="counter__answer_id" class="counter__subtitle counter__subtitle_answer"></p>
+  </div>
+</div>
+</body>
+
+	<script src="main.js"></script>
+</html>
