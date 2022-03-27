@@ -186,10 +186,12 @@ address img {
 .vk {
 	background-position: 0px 0px;
 }
-.inst {
+.inst { 
+	display: none;
 	background-position: -35px 0px;
 }
-.fb {
+.fb { 
+	display: none;
 	background-position: -71px 0px;
 }
 .address-data {
