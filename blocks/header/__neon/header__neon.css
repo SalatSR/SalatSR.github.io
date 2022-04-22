@@ -1,0 +1,9 @@
+.header__neon {
+  height: 2px;
+  background-color: #fff;
+  line-height: 1.15;
+  margin: 26px 0 10px;
+  animation: neonLight 4s infinite;
+  box-shadow: 0 -2px 3px 1px #8a2be2,
+              0 2px 3px 1px #8a2be2;
+}

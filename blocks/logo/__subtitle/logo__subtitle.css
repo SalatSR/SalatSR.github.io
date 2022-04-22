@@ -1,0 +1,28 @@
+.logo__subtitle {
+  position: relative;
+  font-family: 'Gill Sans MT Condensed', Agency FB ;
+  text-shadow: 0 1px 1px gray,
+              1px 0 1px gray;
+  font-size: 21pt;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0;
+  width: 90%;
+  letter-spacing: 5px;
+  z-index: 0;
+}
+
+.logo__subtitle:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 9px;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  box-shadow: 0 1px 1px 1px gray,
+              inset 0 1px 1px 1px gray;
+  margin: 0;
+  height: 8pt;
+  width: 100%;
+  z-index: -1;
+}

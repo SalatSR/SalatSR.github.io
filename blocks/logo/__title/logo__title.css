@@ -1,0 +1,11 @@
+.logo__title {
+  font-family: broadway;
+  font-size: 23pt;
+  text-shadow: 0 1px 1px gray,
+              1px 0 1px gray;
+  color: red;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0;
+  width: 90%;
+}

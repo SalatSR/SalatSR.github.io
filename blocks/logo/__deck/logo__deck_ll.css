@@ -1,0 +1,9 @@
+.logo__deck_ll {
+  border: 2px solid blanchedalmond;
+  border-top: 0;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  width: 400px;
+}
