@@ -1,18 +1,3 @@
-@keyframes neonLight {
-  0% {
-  box-shadow: 0 -2px 3px 1px #8a2be2,
-              0 2px 3px 1px #8a2be2;
-  }
-  50% {
-  box-shadow: 0 -2px 5px 3px #8a2be2,
-              0 2px 5px 3px #8a2be2;
-  }
-  100% {
-  box-shadow: 0 -2px 3px 1px #8a2be2,
-              0 2px 3px 1px #8a2be2;
-  }
-}
-
 .header {
   background-color: black;
   min-height: 150px;

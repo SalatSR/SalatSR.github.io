@@ -1,21 +1,62 @@
+@keyframes neonLight {
+  0% {
+  box-shadow: 0 -2px 3px 1px #8a2be2,
+              0 2px 3px 1px #8a2be2;
+  }
+  50% {
+  box-shadow: 0 -2px 5px 3px #8a2be2,
+              0 2px 5px 3px #8a2be2;
+  }
+  100% {
+  box-shadow: 0 -2px 3px 1px #8a2be2,
+              0 2px 3px 1px #8a2be2;
+  }
+}
+
+@media screen and (min-width: 499px) {
+  @keyframes neonLight {
+    0% {
+    box-shadow: 0 -3px 4px 2px #8a2be2,
+                0 3px 4px 2px #8a2be2;
+    }
+    50% {
+    box-shadow: 0 -3px 6px 4px #8a2be2,
+                0 3px 6px 4px #8a2be2;
+    }
+    100% {
+    box-shadow: 0 -3px 4px 2px #8a2be2,
+                0 3px 4px 2px #8a2be2;
+    }
+  }
+}
+
 .header__neon {
   height: 2px;
-  background-color: #fff;
+  background-color: #ead3ff;
   line-height: 1.15;
   margin: 15px 0 10px;
   animation: neonLight 4s infinite;
-  box-shadow: 0 -2px 3px 1px #8a2be2,
-              0 2px 3px 1px #8a2be2;
+}
+
+@media screen and (min-width: 429px) {
+  .header__neon {
+    margin-top: 20px;
+  }
+}
+
+@media screen and (min-width: 499px) {
+  .header__neon {
+    margin-top: 23px;
+  }
+
+  .header__neon:first-child {
+    margin-top: 15px;
+
+  }
 }
 
 @media screen and (min-width: 631px) {
   .header__neon {
-    margin: 26px 0 10px;
-    box-shadow: 0 -2px 3px 1px #8a2be2,
-                0 2px 3px 1px #8a2be2;
-  }
-
-  .header__neon:first-child {
-    margin-top: 26px;
+    margin-top: 26px ;
   }
 }
