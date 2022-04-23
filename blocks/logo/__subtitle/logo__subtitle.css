@@ -28,13 +28,20 @@
   z-index: -1;
 }
 
+@media screen and (min-width: 429px) {
+  .logo__subtitle {
+    font-size: 22px;
+  }
+  
+  .logo__subtitle:before {
+    top: 7px;
+    height: 7pt;
+  }
+}
+
 @media screen and (min-width: 631px) {
   .logo__subtitle {
     font-size: 28px;
-    margin: 0 auto;
-    padding: 0;
-    width: 90%;
-    letter-spacing: 5px;
   }
   
   .logo__subtitle:before {
