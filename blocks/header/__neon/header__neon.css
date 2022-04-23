@@ -8,7 +8,7 @@
               0 2px 3px 1px #8a2be2;
 }
 
-@media screen and (min-width: 401px) {
+@media screen and (min-width: 631px) {
   .header__neon {
     margin: 26px 0 10px;
     box-shadow: 0 -2px 3px 1px #8a2be2,

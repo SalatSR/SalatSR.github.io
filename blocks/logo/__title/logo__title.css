@@ -10,9 +10,8 @@
   padding: 0;
 }
 
-@media screen and (min-width: 401px) {
+@media screen and (min-width: 631px) {
   .logo__title {
-    font-size: 23px;
-    width: 90%;
+    font-size: 32px;
   }
 }

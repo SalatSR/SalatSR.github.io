@@ -12,8 +12,8 @@
   }
 }
 
-@media screen and (min-width: 401px) {
+@media screen and (min-width: 631px) {
   .header__neon-container {
-    width: 33%;
+    width: calc(100vw - 482px);
   }
 }

@@ -1,4 +1,5 @@
 .header__nav-list {
+  box-sizing: border-box;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -6,16 +7,11 @@
   list-style-position: inside;
   margin: 0 auto;
   padding: 0;
+  width: 100%;
 }
 
 @media screen and (min-width: 401px) {
   .header__nav-list {
-    flex-wrap: nowrap;
-    justify-content: space-around;
-    list-style-type: none;
-    list-style-position: inside;
-    margin: 0 auto;
-    padding: 0;
     width: 482px;
   }
   

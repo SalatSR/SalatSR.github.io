@@ -1,8 +1,16 @@
 .header__nav-link {
+  box-sizing: border-box;
   font-family: lemondrop;
+  font-size: 13px;
   color: blanchedalmond;
 }
 
 .header__nav-link:hover {
   text-decoration: none;
+}
+
+@media screen and (min-width: 631px) {
+  .header__nav-link {
+    font-size: 20px;
+  }
 }
