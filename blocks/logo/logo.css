@@ -9,6 +9,11 @@
   }
 }
 
+@media screen and (min-width: 499px) {
+  .logo {
+    min-width: 400px;
+  }
+}
 
 @media screen and (min-width: 631px) {
   .logo {

@@ -39,6 +39,17 @@
   }
 }
 
+@media screen and (min-width: 499px) {
+  .logo__subtitle {
+    font-size: 26px;
+  }
+  
+  .logo__subtitle:before {
+    top: 8px;
+    height: 8pt;
+  }
+}
+
 @media screen and (min-width: 631px) {
   .logo__subtitle {
     font-size: 28px;
