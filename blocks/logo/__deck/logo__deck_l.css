@@ -1,3 +1,9 @@
 .logo__deck_l {
-  width: 400px;  
+  width: 80%;  
+}
+
+@media screen and (min-width: 401px) {
+  .logo__deck_l {
+    width: 400px;  
+  }
 }

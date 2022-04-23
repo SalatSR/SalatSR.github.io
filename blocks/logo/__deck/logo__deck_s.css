@@ -1,4 +1,9 @@
 .logo__deck_s {
-  width: 320px;
+  width: 60%;
+}
 
+@media screen and (min-width: 401px) {
+  .logo__deck_s {
+    width: 320px;
+  }
 }

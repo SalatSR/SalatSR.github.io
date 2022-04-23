@@ -5,5 +5,11 @@
   border-top-right-radius: 0px;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
-  width: 400px;
+  width: 80%;
+}
+
+@media screen and (min-width: 401px) {
+  .logo__deck_ll {
+    width: 400px;
+  }
 }

@@ -1,8 +1,6 @@
 .logo__deck {
-  /* border: 1px solid red; */
   border: 2px solid blanchedalmond;
   border-bottom: 0;
-  /* background-color: rgb(199, 175, 42); */
   background: linear-gradient(to right, rgb(199, 175, 42) 90%, rgb(255, 255, 255));
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;

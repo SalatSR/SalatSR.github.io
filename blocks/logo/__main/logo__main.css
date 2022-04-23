@@ -7,7 +7,25 @@
   background-color: #fff;
   border-radius: 5px;
   margin: 0 auto;
+  /* width: 100%; */
   width: 482px;
   padding: 0 0 5px;
-  height: 100px;
+  min-height: 100px;
+}
+
+@media screen and (min-width: 401px) {
+  .logo__main {
+    /* border: 1px solid red; */
+    /* border: 3px solid rgb(251, 217, 165);
+    background-color: blanchedalmond; */
+    position: relative;
+    border: 3px solid blanchedalmond;
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 0 auto;
+    /* width: 100%; */
+    width: 482px;
+    padding: 0 0 5px;
+    min-height: 100px;
+  }
 }
