@@ -1,0 +1,6 @@
+.filmstrip__frame {
+  height: 24px;
+	border-top: 3px solid black;
+	border-bottom: 3px solid black;
+  background: transparent repeating-linear-gradient(90deg, #000, #000 4px, white 4px, white 36px);
+}

@@ -1,0 +1,4 @@
+.filmstrip__perforation {
+  height: 7px;
+  background: transparent repeating-linear-gradient(90deg, #000, #000 4px, white 4px, white 8px);
+}
