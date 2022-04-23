@@ -1,28 +1,46 @@
 .logo__subtitle {
+  box-sizing: border-box;
   position: relative;
-  font-family: 'Gill Sans MT Condensed', Agency FB ;
+  font-family: 'Gill Sans MT Condensed', 'Agency FB';
   text-shadow: 0 1px 1px gray,
               1px 0 1px gray;
-  font-size: 21pt;
+  font-size: 13px;
   text-align: center;
   margin: 0 auto;
   padding: 0;
-  width: 90%;
   letter-spacing: 5px;
   z-index: 0;
 }
 
 .logo__subtitle:before {
+  box-sizing: border-box;
   content: '';
   display: block;
   position: absolute;
-  top: 9px;
+  top: 3px;
   border-top: 1px solid white;
   border-bottom: 1px solid white;
   box-shadow: 0 1px 1px 1px gray,
               inset 0 1px 1px 1px gray;
   margin: 0;
-  height: 8pt;
+  height: 6px;
   width: 100%;
   z-index: -1;
+}
+
+@media screen and (min-width: 401px) {
+  .logo__subtitle {
+    font-size: 21pt;
+    margin: 0 auto;
+    padding: 0;
+    width: 90%;
+    letter-spacing: 5px;
+  }
+  
+  .logo__subtitle:before {
+    top: 9px;
+    margin: 0;
+    height: 8pt;
+    width: 100%;
+  }
 }

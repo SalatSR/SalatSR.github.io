@@ -1,11 +1,18 @@
 .logo__title {
+  box-sizing: border-box;
   font-family: broadway;
-  font-size: 23pt;
+  font-size: 15px;
   text-shadow: 0 1px 1px gray,
               1px 0 1px gray;
   color: red;
   text-align: center;
   margin: 0 auto;
   padding: 0;
-  width: 90%;
+}
+
+@media screen and (min-width: 401px) {
+  .logo__title {
+    font-size: 23px;
+    width: 90%;
+  }
 }

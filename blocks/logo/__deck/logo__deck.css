@@ -1,4 +1,5 @@
 .logo__deck {
+  box-sizing: border-box;
   border: 2px solid blanchedalmond;
   border-bottom: 0;
   background: linear-gradient(to right, rgb(199, 175, 42) 90%, rgb(255, 255, 255));
@@ -6,4 +7,10 @@
   border-top-right-radius: 5px;
   height: 8px;
   margin: 0 auto;
+}
+
+@media screen and (min-width: 401px) {
+  .logo__deck {
+    height: 10px;
+  }
 }
