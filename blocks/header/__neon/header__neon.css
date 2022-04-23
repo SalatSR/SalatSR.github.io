@@ -2,8 +2,20 @@
   height: 2px;
   background-color: #fff;
   line-height: 1.15;
-  margin: 26px 0 10px;
+  margin: 15px 0 10px;
   animation: neonLight 4s infinite;
   box-shadow: 0 -2px 3px 1px #8a2be2,
               0 2px 3px 1px #8a2be2;
+}
+
+@media screen and (min-width: 401px) {
+  .header__neon {
+    margin: 26px 0 10px;
+    box-shadow: 0 -2px 3px 1px #8a2be2,
+                0 2px 3px 1px #8a2be2;
+  }
+
+  .header__neon:first-child {
+    margin-top: 26px;
+  }
 }
