@@ -12,12 +12,7 @@
 
 @media screen and (min-width: 631px) {
   .logo__main {
-  }
-}
-
-@media screen and (min-width: 800px) {
-  .logo__main {
-    width: 482px;
-    min-height: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }

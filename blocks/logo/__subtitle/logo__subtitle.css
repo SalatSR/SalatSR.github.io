@@ -57,8 +57,16 @@
   
   .logo__subtitle:before {
     top: 9px;
-    margin: 0;
-    height: 8pt;
-    width: 100%;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  .logo__subtitle {
+    font-size: 34px;
+  }
+  
+  .logo__subtitle:before {
+    top: 12px;
+    height: 10pt;
   }
 }

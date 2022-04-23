@@ -28,3 +28,9 @@
     font-size: 32px;
   }
 }
+
+@media screen and (min-width: 767px) {
+  .logo__title {
+    font-size: 42px;
+  }
+}
