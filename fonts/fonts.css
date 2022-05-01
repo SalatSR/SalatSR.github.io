@@ -3,5 +3,20 @@
 	font-style: normal;
 	font-weight: 400;
 	src: local(lemondrop),
-		url(Lemondrop-2jrw.ttf) format("truetype");
+				url(Lemondrop-2jrw.ttf) format("truetype");
+}
+
+@font-face {
+	font-family: broadway;
+	font-style: normal;
+	src: local(BROADW),
+				local(Broadway),
+				url(Broadway.ttf) format("truetype");
+}
+
+@font-face {
+	font-family: 'Gill Sans MT Condensed';
+	font-style: normal;
+	src: local(GILC____),
+				url(Gill-Sans-MT-Condensed.ttf) format("truetype");
 }
