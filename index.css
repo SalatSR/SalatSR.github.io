@@ -24,3 +24,11 @@
 @import url(./blocks/filmstrip/filmstrip.css);
 @import url(./blocks/filmstrip/__perforation/filmstrip__perforation.css);
 @import url(./blocks/filmstrip/__frame/filmstrip__frame.css);
+
+@import url(./blocks/projects/projects.css);
+@import url(./blocks/projects/__list-section/projects__list-section.css);
+@import url(./blocks/projects/__list-articles/projects__list-articles.css);
+@import url(./blocks/projects/__article/projects__article.css);
+@import url(./blocks/projects/__list-link/projects__list-link.css);
+@import url(./blocks/projects/__list-link/projects__list-link_pass.css);
+@import url(./blocks/projects/__cover/projects__cover.css);
