@@ -1,0 +1,6 @@
+.articles-list__link {
+  display: inline-block;
+  position: relative;
+  height: inherit;
+  width: inherit;
+}

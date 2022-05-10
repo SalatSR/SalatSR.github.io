@@ -1,0 +1,11 @@
+.articles-list__article-title {
+  font-size: 24px;
+  text-align: center;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  padding: 0;
+}
