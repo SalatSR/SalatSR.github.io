@@ -7,7 +7,7 @@
   letter-spacing: 5px;
   margin: 0;
   padding: 0;
-  padding-bottom: 20px;
+  /* padding-bottom: 20px; */
 }
 .projects__sections-title:first-child {
   padding-bottom: 0;
