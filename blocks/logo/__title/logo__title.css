@@ -2,6 +2,7 @@
   box-sizing: border-box;
   font-family: broadway;
   font-size: 20px;
+  text-transform: uppercase;
   text-shadow: 0 1px 1px gray,
               1px 0 1px gray;
   color: red;

@@ -1,7 +1,7 @@
 .projects {
   display: flex;
   flex-direction: column;
-  list-style-type: none;
+  list-style: none;
   list-style-position: inside;
   align-items: center;
   justify-content: space-between;

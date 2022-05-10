@@ -1,0 +1,5 @@
+.projects__sections {
+  display: flex;
+  list-style: none;
+  width: 100%;
+}

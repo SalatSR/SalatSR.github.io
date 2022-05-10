@@ -1,0 +1,14 @@
+.projects__sections-title {
+  box-sizing: border-box;
+  position: relative;
+  font-family: 'Gill Sans MT Condensed', 'Agency FB';
+  font-size: 30px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 20px;
+}
+.projects__sections-title:first-child {
+  padding-bottom: 0;
+}

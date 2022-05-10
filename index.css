@@ -25,13 +25,16 @@
 @import url(./blocks/filmstrip/__perforation/filmstrip__perforation.css);
 @import url(./blocks/filmstrip/__frame/filmstrip__frame.css);
 
-@import url(./blocks/projects/projects.css);
-@import url(./blocks/projects/__list-sections-title/projects__list-sections-title.css);
-@import url(./blocks/projects/__list-sections/projects__list-sections.css);
+@import url(./blocks/content/content.css);
+@import url(./blocks/content/__title/content__title.css);
 
-@import url(./blocks/articles-list/articles-list.css);
-@import url(./blocks/articles-list/__link/articles-list__link.css);
-@import url(./blocks/articles-list/__article/articles-list__article.css);
-@import url(./blocks/articles-list/__overlay/articles-list__overlay.css);
-@import url(./blocks/articles-list/__article-cover/articles-list__article-cover.css);
-@import url(./blocks/articles-list/__article-title/articles-list__article-title.css);
+@import url(./blocks/projects/projects.css);
+@import url(./blocks/projects/__sections-title/projects__sections-title.css);
+@import url(./blocks/projects/__sections/projects__sections.css);
+
+@import url(./blocks/articles/articles.css);
+@import url(./blocks/articles/__link/articles__link.css);
+@import url(./blocks/articles/__article/articles__article.css);
+@import url(./blocks/articles/__overlay/articles__overlay.css);
+@import url(./blocks/articles/__article-cover/articles__article-cover.css);
+@import url(./blocks/articles/__article-title/articles__article-title.css);

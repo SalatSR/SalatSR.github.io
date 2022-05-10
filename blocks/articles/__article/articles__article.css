@@ -1,0 +1,7 @@
+.articles__article {
+  box-sizing: border-box;
+  margin-top: 20px;
+  height: 362px;
+  width: 282px;
+  overflow: hidden;
+}

@@ -1,4 +1,5 @@
-.articles-list__article-title {
+.articles__article-title {
+  box-sizing: border-box;
   font-size: 24px;
   text-align: center;
   color: #fff;

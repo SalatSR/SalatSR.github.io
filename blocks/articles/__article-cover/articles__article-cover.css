@@ -1,4 +1,6 @@
-.articles-list__article-cover {
+.articles__article-cover {
+  box-sizing: border-box;
+  display: block;
   position: absolute;
   top: 0;
   left: 0;
